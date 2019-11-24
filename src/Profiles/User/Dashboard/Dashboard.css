@@ -1,0 +1,412 @@
+
+@media(min-width:768px){
+    .page-wrapper-user {
+     margin-top:4rem;
+    }
+    .product-list-wrapper1{
+        padding-left: 3rem;
+    }
+    .userfirstitems-welcome{
+        margin-top:2rem;
+        box-shadow: rgba(0, 0, 0, 0.14) 0px 5px 30px;
+    }
+}
+
+.shakingeditbutton {
+    background: red;
+    border: 0;
+    font-size: 20px;
+    padding: 10px 20px;
+    position: relative;
+    animation-name: shake;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    cursor: pointer;
+  }
+  .shakingeditbutton:hover {
+    animation-name: shakeAnim;
+  }
+  
+  @keyframes shakeAnim {
+    0% {left: 0}
+    1% {left: -3px}
+    2% {left: 5px}
+    3% {left: -8px}
+    4% {left: 8px}
+    5% {left: -5px}
+    6% {left: 3px}
+    7% {left: 0}
+  }
+  
+  @keyframes shake {
+    0% {left: 0}
+    1% {left: -3px}
+    2% {left: 5px}
+    3% {left: -8px}
+    4% {left: 8px}
+    5% {left: -5px}
+    6% {left: 3px}
+    7% {left: 0}
+  }
+.fa-cart-plus{
+    color: rgb(67,160,71);
+    font-size: 1rem;
+}
+.photoedit{
+    position: relative;
+    left: -2.5rem;
+    top:5rem;
+    color: rgb(67,160,71);
+}
+.fa-edit:hover{
+    cursor: pointer;
+    font-size: 4rem;    
+}
+.user-info-wrapper{
+    display: flex;
+    padding: 1rem;
+    margin: 1rem 0rem;
+    background: white;
+    flex-direction: row;
+    font-weight: 300;
+}
+.user-profile-photo{
+    width:150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.user-profile-photo-edit{
+    cursor: pointer;
+   }
+
+.user-welcome-text{
+    margin-top: 1rem;
+    padding-bottom:10px;
+    padding-left: 10px;
+    color: #444444;
+    /* position: relative;
+    left: -1rem; */
+}
+#contained-modal-title-vcenter{
+    color: rgb(67,160,71);
+    padding-left: 1rem;
+}
+.modal-header .close{
+    color: rgb(67,160,71);
+}
+#uncontrolled-tab-example-tab-ProductsSponsored.active{
+    font-size: 17px;
+    color: rgb(67,160,71);
+    background: inherit;
+}
+#uncontrolled-tab-example-tab-ProductsSponsored{
+    font-size: 17px;
+    border: 1px #ddd solid;
+}
+#uncontrolled-tab-example-tab-ProductsReserved.active{
+        font-size: 17px;
+        color: rgb(67,160,71);
+        background: inherit;
+    }
+.isverified{
+    position: absolute;
+    height: 100px;
+    width: 200px;
+    top: 50%;
+    left: 50%;
+    margin-left: -50px;
+    margin-top: -50px;
+    display: flex;
+   }
+.loadingspinnerdashboard{
+    margin-left: .5rem;
+    margin-top: .3rem;
+}
+#uncontrolled-tab-example-tab-ProductsReserved{
+    font-size: 17px;
+    border:1px #ddd solid;
+ }
+#uncontrolled-tab-example-tab-ProductsReserved.active{
+    font-size: 17px;
+    border-bottom:1px #ddd solid;
+ }
+.userfirstcontent{
+    background: rgb(233,233,233);
+    height: fit-content;
+}
+.userfirstcontent-update{
+    background: rgb(233,233,233);
+    height: fit-content;
+}
+.userfirstitems-welcome{
+    height: fit-content;
+    background: white;
+}
+.userfirstitems{
+    height: fit-content;
+    background: white;
+    margin-top: 0rem;
+}
+.userfirstitems-tabs{
+    height: fit-content;
+    background: rgb(250,251,241);
+    margin-top: 0rem;
+    padding-left: 1rem;
+    margin-bottom: 1rem;
+    padding-right: 1rem;
+}
+.update-btn{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    box-shadow: 0 8px 6px 0 rgba(0,0,0,0.1), 0 6px 8px 0 rgba(0,0,0,0.09);
+    border-radius: 2rem;
+}
+.userfirstitems-update{
+    height: fit-content;
+    background: white;
+    margin-top: 1rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+.userfirstitems1{
+    height: fit-content;
+    background: white;
+    margin-top: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.14) 0px 5px 30px;
+}
+.userfirstitems2{
+    height: fit-content;
+    background: white;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.14) 0px 5px 30px;
+}
+
+.userseconditems{
+    height: fit-content;
+    background: white;
+}
+.userseconditems1{
+    height: fit-content;
+    background:white;
+}
+
+.user-btn{
+    background: transparent;
+    font-weight: 300;
+    color: black;
+    margin-bottom: 1rem;
+    border:2px solid;
+    border-radius: 2rem;
+    text-decoration: none;
+    border-color: rgb(67,160,71);
+    width: 142px;
+    box-shadow: 0 8px 8px 0 rgba(0,0,0,0.01), 0 6px 6px 0 rgba(0,0,0,0.01);
+    font-size: 14px;
+    border-width: 2px;
+    padding: 2.5px 12px 4px 12px;
+    margin-right: 4px;
+}
+.user-btn:hover{
+    background-color:rgb(67,160,71);
+    color:white;
+    text-decoration: none;
+    border-color: rgb(67,160,71);
+}
+.usersecondcontent{
+    display:flex;
+    justify-content: space-between;
+    padding-bottom:10px; 
+    position: relative;
+}
+.container-invite-friends{
+    display: flex;
+    font-weight: 400;
+    font-size: 14px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.list-container-dashboard{
+    display: flex;
+    justify-content: center;
+    width: inherit;
+    flex-wrap: wrap;
+    padding-top: 10px;
+}
+.buy-reserved{
+    border-radius: 2rem;
+    border:2;
+    position: relative;
+    top:-5px;
+    right:-1rem;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin:0px 0px 0px 0px;
+    padding-left: 1.8rem;
+    padding-right: 1.8rem;
+}
+.fa-download{
+    color:#444444;
+}
+.user-data-info{
+    padding-left: 1.7rem;
+}
+.container-user-products{
+    display: flex;
+    border-bottom: 1px solid #ddd;
+    font-weight: 300;
+    color:rgba(104, 101, 101, 0.911);
+    padding: 13px 0px;
+    font-size: 17px;
+    justify-content: space-between;
+}
+.user-item{
+    padding-inline-start: 1rem;
+    cursor: pointer;
+}
+
+.user-box-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.user-item-box1{
+    display: flex;
+    width: 300px;
+    height: 100px;
+    background: white;
+    margin: 1rem 0rem;
+}
+.user-item-box2{
+    display: flex;
+    width: 300px;
+    height: 100px;
+    background: white;
+    margin: 1rem 0rem;
+}
+.user-header2{
+    padding-top: 10px;
+}
+.user-item-box3{
+    display: flex;
+    width: 300px;
+    height: 100px;
+    background: white;
+    margin: 1rem 0rem;
+}
+.product-itemz-image{
+    width: 300px;
+    height: 220px;
+}
+.product-itemz{
+    width: 100%;
+    height: 100%;
+}
+.box-3{
+    margin: auto;
+    display: flex;
+    color: #fff;
+    font-weight: bold;
+}
+.user-item1{
+    color: #444444;
+    text-decoration: none;
+}
+.user-item1:hover{
+    color: #444444;
+    text-decoration: none;
+}
+.user-item2{
+    color: #444444;
+    text-decoration: none;
+}
+.user-item2:hover{
+    color: #444444;
+    text-decoration: none;
+}
+.userthirdcontent {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+.userthirditems{
+    height: fit-content;
+    background: white;   
+}
+.box-1{
+    margin: auto;
+    color:#444444;
+    display: flex;
+    font-weight: 500;
+ }
+.box-2{
+    display: flex;
+    color:#444444;
+    font-weight: 500;
+    background: rgb(67,160,71);
+    width: 100px;
+    min-width: 100px;
+    height: 100px;
+}
+.user-header{
+    font-weight: bold;
+    padding-right: 6.3rem;
+}
+.user-header:focus{
+    color:rgb(67,160,71)
+}
+.user-header:active{
+    color:rgb(67,160,71)
+}
+
+.userseconditems2{
+    background: rgb(250,251,241);
+    margin-bottom:1rem;
+}
+@media(max-width:540px){
+    .user-item1{
+        display:none;
+    }
+    .userfirstitems-welcome{
+        height: fit-content;
+        margin-top: 0rem;
+    }
+    .userfirstitems-update{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    
+}
+@media(max-width:768px){
+    .sex-wrapper {
+        margin-top: 6px;
+        margin-left: -15px;
+        padding-left: 2rem;
+        padding-right: 1rem;
+    }
+}
+.fa-address-book{
+    font-size:1.1rem;
+    color:rgb(67,160,71);
+    padding-right: 10px;
+}
+.fa-share-alt {
+    font-size: 1.1rem;
+    color:rgb(67,160,71);
+    padding-right: 10px;
+}
+.fa-calendar{
+    font-size: 1.1rem;
+    color:rgb(67,160,71);
+    padding-right: 10px;
+}
+
+.cashindashboard{
+    display: contents;
+    font-weight: 600;
+    font-family: sans-serif;
+}

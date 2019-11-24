@@ -1,0 +1,320 @@
+.u1{
+    width: 193.5px;
+}   
+.u3{
+width: 181.74px;
+}
+.u4{
+width: 223.54px;
+}
+.u5{
+    width: 173.93px;
+}
+.updatestatus{
+    text-align: center;
+    color: red;
+    position: relative;
+    top: -20rem;
+}
+.useredit{
+    height: fit-content;
+    background: rgb(250,251,241);
+    padding: 10px 0rem;
+}
+.container-invite-friends{
+    display: flex;
+}
+.editicon{
+    cursor: pointer;
+    width: 50px;
+    position: relative;
+    left: -2.4rem;
+    top: 2rem;
+}
+.modalheaderprofilephoto{
+    background: #ddd;
+}
+.uploadphotobtn{
+    border-radius: 2rem;
+}
+.password-reset{
+    margin-top: 1vw;
+    padding-right: 2rem;
+}
+.shiftleft{
+    position: relative;
+    left: -3rem;
+}
+.submit-photo{
+    text-align: center;
+    padding-top: 1rem;
+    padding-left: 1rem;
+}
+.userproducts{
+    padding-top: 2.5rem;
+}
+@media(min-width:780px){
+    .sex-wrapper{
+        margin-top: 6px;
+        margin-left: 15px;
+    }
+    .userfirstitems-tabs{
+        padding-left: 4rem;
+        padding-right: 4rem;
+        box-shadow: rgba(0, 0, 0, 0.04)2px 0px 20px;
+    }
+    .lastbtn-submit{
+        margin-top: .5rem;
+    }
+}
+  .sex{
+      position: relative;
+      z-index: 1;
+  }
+  .loginerror{
+      padding-top: 1rem;
+      padding-bottom: 0px;
+      margin-bottom: 0px;
+  }
+  .male-button:hover{
+    cursor: pointer;
+  }
+  .male-button{
+      cursor: pointer;
+      width: 100px;
+      border: 2px solid #ddd;
+      border-radius: 2rem;
+      text-decoration: none;
+      border-color: #dddddddd;
+      width: 140px;
+      padding: 8px 3.3vw;
+      font-size: 14px;
+      border-width: 2px;
+      background: white;
+  }
+  .gender{
+      padding-bottom: 5px;
+  }
+  .update-btn-all{
+      text-align: right;
+  }
+  .female-button{
+    cursor: pointer;
+    width: 100px;
+    border: 2px solid #ddd;
+    border-radius: 2rem;
+    text-decoration: none;
+    border-color: #dddddddd;
+    width: 140px;
+    margin-left: 10px;
+    padding: 8px 3.3vw;
+    font-size: 14px;
+    background: white;
+    border-width: 2px;
+}
+
+.update-profie-title{
+    padding: 25px 15px 5px;
+    font-size: 17px;
+    font-weight: bold;
+}
+.update-profie-text{
+    font-size: 16px;
+    padding-left: 15px;
+}
+
+@supports (-moz-appearance:none) {
+    .nav-tabs .nav-link {
+        margin: 0px;
+        width: max-content;
+        color: rgb(183,183,183);
+        padding-left:30px;
+        padding-right:30px;
+    }  
+}
+
+.nav-tabs .nav-link {
+    margin: 0px;
+    width: fit-content;
+    color: rgb(183,183,183);
+    padding-left:30px;
+    padding-right:30px;
+    font-size: 14.8px;
+    font-weight: 500;
+    background: rgb(231,231,231);
+    border:1px solid darkgray;
+}
+@supports (-ms-ime-align: auto) {
+    .nav-tabs .nav-link {
+        width: 22%
+        ;
+    }
+  }
+.nav-tabs .nav-link:focus {
+    background:rgb(67,160,71);
+    color: white;
+}
+
+.nav-tabs .nav-link:active {
+    background:rgb(67,160,71);
+    color: white;
+}
+@media(max-width:940px){
+    .nav{
+        flex-wrap: nowrap;
+    }
+
+    .nav-tabs .nav-link {
+    padding: 2px;
+    }
+}
+.modal-title{
+    font-size: 20px;
+    padding-bottom: 0rem;
+    margin-bottom: 0px;
+}
+.toast-page-center{
+    position: absolute;
+    top: -62%;
+    z-index: 1;
+    left: 30vw;
+}
+.toast-page-center-nok{
+    position: absolute;
+    top: -131%;
+    z-index: 1;
+    left: 30vw;
+}
+.page-center-nok{
+    position: absolute;
+    top: -131%;
+    z-index: 1;
+    left: 30vw;
+}
+.messagetocrm{
+    text-align: center;
+}
+.toast-page-center-password{
+    position: absolute;
+    top: -186%;
+    z-index: 1;
+    left: 30vw;
+}
+.toast-page-center-bank{
+    position: absolute;
+    top: -208%;
+    z-index: 1;
+    left: 26vw;
+}
+.page-center-bank{
+    position: absolute;
+    top: -208%;
+    z-index: 1;
+    left: 26vw;
+}
+.page-center-password{
+    position: absolute;
+    top: -185%;
+    z-index: 1;
+    left: 26vw;
+}
+.toast-header1{
+    background: rgb(67,160,71);
+    color: white;
+}
+.toast-body1{
+    background: rgb(67,160,71);
+    color: white;
+    width: 22rem;
+    padding-left: 1rem;
+    border-top-right-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+    border-top-left-radius: 3rem;
+    border-bottom-left-radius: 3rem;
+    min-width: 14rem;
+}
+.toast-body2{
+    width: 22rem;
+    padding-left: 1rem;
+    border-top-right-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+    border-top-left-radius: 3rem;
+    border-bottom-left-radius: 3rem;
+    min-width: 14rem;
+}
+
+.toast-header-error{
+    color: white;
+    background: #df4d5c;
+}
+.toast{
+    box-shadow: none;
+}
+.toast-body-error{
+    color: white;
+    background: #df4d5c;
+    width: 22rem;
+    padding-left: 1rem;
+    border-top-right-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+    border-top-left-radius: 3rem;
+    border-bottom-left-radius: 3rem;
+    min-width: 14rem;
+}
+.close{
+    padding-right: 1rem;
+}
+/* custom toasst */
+@media(max-width:767px){
+    .toast-page-center-nok {
+        top: -86%;
+        z-index: 1;
+        left: 5vw;
+    }
+    .page-center-nok {
+        top: -86%;
+        z-index: 1;
+        left: 5vw;
+    }
+    .toast-page-center {
+        position: absolute;
+        top: -42%;
+        z-index: 1;
+        left: 20vw;
+    }
+    .toast-page-center-bank{
+        top: -139%;
+        left: 1rem;
+    }
+    .page-center-bank{
+        top: -139%;
+        left: 1rem;
+    }
+    .toast-body1{
+        width: 18rem;
+    }
+    .toast-body2{
+        width: 18rem;
+    }
+}
+.errorwrapper{
+    display: flex;
+    justify-content: space-between;
+}
+@media(max-width:400px){
+    .toast-page-center {
+        position: absolute;
+        top: -42%;
+        z-index: 1;
+        left: 2vw;
+    }
+    .u1{
+        margin-top: 1rem;
+    }
+}
+.close{
+    margin-right: 9px;
+}
+.close:hover{
+    color:'#fff'
+}

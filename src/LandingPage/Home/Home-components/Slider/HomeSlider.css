@@ -1,0 +1,300 @@
+
+.react-multiple-carousel__arrow{
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.75) 1px 5px 10px;
+    z-index: 1;
+}
+.react-multiple-carousel__arrow::before{
+    color:black;
+}
+button:focus{
+    outline: 0px auto -webkit-focus-ring-color;
+}
+.react-multiple-carousel__arrow:hover{
+    background: white;
+
+}
+.list-container-changed{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.list-container2-changed{
+    display: flex;
+    width: fit-content;
+    justify-content: center;
+    /* position: relative;
+    right:-12vw; */
+}
+@supports (-moz-appearance:none) {
+    .list-container2-changed{
+        width: max-content;
+    }
+}
+.list-item-changed{
+    margin-right: 1.7rem;
+    margin-bottom: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 5px 90px;
+}
+
+.box-title-changed{
+    margin:0px;
+    text-decoration:none;
+    color:#444444;
+    padding-top:10px;
+    font-weight: 500;
+    padding-top: 10px;
+    padding-left:25px;
+    font-size: 19px;
+}
+
+.box-link-changed{
+    text-decoration:none;
+    color:inherit;
+}
+.box-link-changed:hover{
+    text-decoration:none;
+    color:inherit;
+}
+.box-content-changed{
+    padding-left:12px;
+    margin-bottom: 10px;
+    font-size: 12.4px;
+    color: #7b7a7a;
+} 
+.box-content1-changed{
+    padding-left:12px;
+    font-size: 1rem;
+} 
+@media(max-width:555px){
+    .title-in-slider{
+    font-size: 20px;      
+    }
+}
+/* css from module */
+.menu-item-changed {
+    padding: 0 40px;
+    margin: 5px 10px;
+    user-select: none;
+    cursor: pointer;
+    border: none;
+  }
+   
+  .scroll-menu-arrow-changed {
+    padding: 20px;
+    cursor: pointer;
+  }
+
+
+
+  .sliderwrapper-changed{
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+  }
+  .title-in-slider{
+      position: relative;
+      bottom:10px;
+      margin-left: 3rem;
+      padding-bottom: 0rem;
+      font-size: 2.1rem;
+      margin-bottom: 4px;
+      width:140px;
+      border-bottom: 2px solid rgb(67,160,71);
+  }
+  .left{
+    display:flex;
+   }
+   #left-button{
+    margin:auto;
+    position: relative;
+    border-radius: 50%;
+    right: 30px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 30px;
+   }
+   #right-button{
+    margin:auto;
+    position: relative;
+    border-radius: 50%;
+    left: 30px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 30px;
+   }
+   .internal-changed{
+    width: 31.75%;
+    height: 100%;
+    display: inline-block;
+   }
+   
+   .center-changed{ 
+    padding-top: 3rem;
+    height: 100%;
+    overflow: hidden;
+    /*will change this to hidden later to deny scolling to user*/
+    white-space: nowrap;
+   }
+   .product-item-changed{
+    width: 100%;
+    height: 100%;
+   }
+   .prod-status-container-changed{
+       display:flex;
+       justify-content:space-between;
+   }
+   .open-btn-changed{
+    background: white;
+    font-weight: 100;
+    font-size:12.3px;
+    color:  rgb(67,160,71);
+    border: 2px solid;
+    border-radius: 2rem;
+    border-color: rgb(67,160,71);
+    width: 97px;
+    border-width: 2px;
+    padding: 9px 15px;
+    margin-top:-1px;
+    position: relative;
+    top: -18px;
+    margin-right:4px;
+}
+.open-btn-changed:hover{
+    background: white;
+    text-decoration: none;
+    color:  rgb(67,160,71);
+    border-radius: 2rem;
+    border-color: rgb(67,160,71);
+}
+
+.closed-btn-changed{
+    background: white;
+    font-size:12.3px;
+    font-weight: 100;
+    color:  #9B0000;
+    border: 2px solid;
+    width: 90px;
+    border-radius: 2rem;
+    border-color: #9B0000;
+    position: relative;
+    top: -18px;
+    border-width: 2px;
+    padding: 9px 15px;
+    margin-top:-1px;
+    margin-right:4px;
+}
+.closed-btn-changed:active{
+    background: white;
+    font-size:12.3px;
+    font-weight: 100;
+    color:  #9B0000;
+    border: 2px solid;
+    width: 97px;
+    border-radius: 2rem;
+    border-color: #9B0000;
+    position: relative;
+    top: -18px;
+    border-width: 2px;
+    padding: 1px 5px 1px 5px;
+    margin-top:-1px;
+    margin-right:4px;
+}
+
+.closed-btn-changed:hover{
+    background: white;
+    font-size:12.3px;
+    text-decoration: none;
+    font-weight: 100;
+    color:  #9B0000;
+    border: 2px solid;
+    border-radius: 2rem;
+    border-color: #9B0000;
+}
+
+/* .closed-btn{
+    background: white;
+    color:  #9B0000;
+    border-color: #9B0000;
+    width: 90px;
+    background: white;
+    font-size:11px;
+    font-weight: 100;
+    border-width: 2px;
+    border: 2;
+    padding: 1px 5px 1px 5px;
+    margin-top:-1px;
+    position: relative;
+    top: -14px;
+    margin-right:4px;
+}
+.closed-btn:hover{
+    color:  #9B0000;
+    border-color: #9B0000;
+    background: white;
+    font-weight: 100;
+    text-decoration: none;
+    color:  rgb(67,160,71);
+    border: 2;
+    border-radius: 2rem;
+    border-color: rgb(67,160,71);
+} */
+
+.coming-btn-changed{
+    background: white;
+    font-size:12.3px;
+    font-weight: 100;
+    color:  #FFBF00;
+    border: 2px solid;
+    width: 97px;
+    border-radius: 2rem;
+    border-color: #FFBF00;
+    position: relative;
+    top: -18px;
+    border-width: 2px;
+    padding: 9px 15px;
+    margin-top:-1px;
+    margin-right:4px;
+    /* new change */
+    /* left: -3.2rem;  */
+    /* new change */
+}
+
+.coming-btn-changed:active :focus{
+    background: white;
+    font-size:12.3px;
+    font-weight: 100;
+    color:  #FFBF00;
+    width: 97px;
+    border-radius: 2rem;
+    border-color: #FFBF00;
+    position: relative;
+    top: -18px;
+    border-width: 2px;
+    padding: 0px 5px 0px 5px;
+    margin-top:-1px;
+    margin-right:4px;
+}
+
+.coming-btn-changed:hover{
+    background: white;
+    font-weight: 100;
+    color:  #FFBF00;
+    text-decoration: none;
+    border-radius: 2rem;
+    border-color: #FFBF00;
+}
+    .info-tip-wrapper-changed{
+        display: flex;
+        justify-content: space-between;
+        font-size: 18px;
+        padding:10px 15px 2px;
+        border-bottom: 2px solid #fff;
+    }
+    .fa-info-circle{
+        font-size: 19px;
+        padding-right: 10px;
+    }
+   .right{ 
+    display: flex;
+   }
+   /* Arrows */
+   .addedpadding{
+       padding-bottom: 1rem;
+   }
